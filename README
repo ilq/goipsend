@@ -1,6 +1,12 @@
 goipsend.py
 A python application to send sms/ussd via GoIP4 GSM gateway.
 
+Install:
+Required:
+- python 2.7
+- zabbix-agent (aptitude install zabbix-agent)
+
+
 Arguments:
 There is a list of arguments that are presented in built-in `arguments` dictionary that could be set via `config.py`, or overridden via command line arguments that look like dictionary fields themselves but with the prefix `--` :
 --user                 A usual login that is used for gsm gateway web-GUI
